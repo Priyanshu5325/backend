@@ -1,0 +1,41 @@
+/* Apply general styles to the whole page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Heading style */
+h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Link style */
+a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+/* Image styling */
+img {
+    margin-top: 10px;
+    max-width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
